@@ -2,7 +2,7 @@
 /* #endregion */
 
 /* #region Font Styles */
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i|IBM+Plex+Sans+Condensed:600|Montserrat:300,400,600,700,700i,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,300i|IBM+Plex+Sans+Condensed:600|Montserrat:300,400,600,700,700i,900&display=swap");
 /* #endregion Font Styles */
 
 @-ms-viewport {
@@ -60,7 +60,7 @@
 :root {
   --antrazit: #333333;
   --antrazit50: rgba(51, 51, 51, 0.5);
-  --orange: #FF6633;
+  --orange: #ff6633;
   --red: #e3000f;
   --red20: rgba(227, 0, 15, 0.2);
   --red80: rgba(227, 0, 15, 0.8);
@@ -69,7 +69,7 @@
   --dunkelyellow: #e4d606;
   --white: #fff;
   --white_trans: rgba(255, 255, 255, 0.8);
-  --hellgrau: #F5F5F5;
+  --hellgrau: #f5f5f5;
   --textgrau: #b0b0b0;
   --dunkelgrau: rgba(51, 51, 51, 0.8);
   --border_bottom: #979797;
@@ -80,20 +80,19 @@
 }
 
 .ibm-plex-mono {
-  font-family: 'IBM Plex Mono', monospace;
-  font-weight: '300';
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: "300";
   font-style: italic;
   font-size: 70%;
 }
 
 .ibm-plex-sans {
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
   font-weight: 600;
-
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
@@ -433,11 +432,16 @@ section .four {
   -moz-transform: translateX(50%);
   -ms-transform: translateX(50%);
   -o-transform: translateX(50%);
-  transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1), transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
-  -webkit-transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1), transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
-  -moz-transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1), transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
-  -ms-transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1), transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
-  -o-transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1), transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
+  transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1),
+    transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
+  -webkit-transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1),
+    transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
+  -moz-transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1),
+    transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
+  -ms-transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1),
+    transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
+  -o-transition: opacity 350ms cubic-bezier(0.86, 0, 0.07, 1),
+    transform 350ms cubic-bezier(0.86, 0, 0.07, 1);
 }
 
 .tooltip .tooltiptext::after {
@@ -486,7 +490,8 @@ section .four {
   text-align: center;
 }
 
-.einleitung {}
+.einleitung {
+}
 
 .einleitung-container {
   display: flex;
@@ -675,7 +680,7 @@ section .four {
 
   text-align: center;
   text-transform: uppercase;
-  color: var(--white)
+  color: var(--white);
 }
 
 .buchung__copy {
@@ -688,13 +693,15 @@ section .four {
   text-align: center;
 }
 
-.projekte {}
+.projekte {
+}
 
 .projekte__wrapper {
   margin: 0 auto;
 }
 
-.projekte__subheadline {}
+.projekte__subheadline {
+}
 
 .projekte__headline {
   font-style: normal;
@@ -820,7 +827,11 @@ section .four {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(25deg, rgba(255, 102, 51, 0) 25%, rgba(255, 102, 51, 0.8) 80%);
+  background: linear-gradient(
+    25deg,
+    rgba(255, 102, 51, 0) 25%,
+    rgba(255, 102, 51, 0.8) 80%
+  );
   background-blend-mode: multiply;
   transform: translateY(-100%);
   transition: all 300ms ease-in-out;
@@ -881,14 +892,16 @@ section .four {
   transform: translateY(0);
 }
 
-.next {}
+.next {
+}
 
 .next__container {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.next__wrapper {}
+.next__wrapper {
+}
 
 .next_subheadline {
   margin-bottom: 40px;
@@ -905,7 +918,6 @@ section .four {
   display: block;
   height: 350px;
   width: 100%;
-
 }
 
 .next__item-img01 {
@@ -944,7 +956,11 @@ section .four {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(25deg, rgba(255, 102, 51, 0) 50%, rgba(255, 102, 51, 0.8) 100%);
+  background: linear-gradient(
+    25deg,
+    rgba(255, 102, 51, 0) 50%,
+    rgba(255, 102, 51, 0.8) 100%
+  );
   background-blend-mode: multiply;
   transform: translateX(100%);
   transition: all 300ms ease-in-out;
@@ -1143,7 +1159,6 @@ section .four {
   -moz-transition: all 950ms cubic-bezier(0.86, 0, 0.07, 1);
   -ms-transition: all 950ms cubic-bezier(0.86, 0, 0.07, 1);
   -o-transition: all 950ms cubic-bezier(0.86, 0, 0.07, 1);
-
 }
 
 .copy-k-studio {
@@ -1198,7 +1213,6 @@ section .four {
   -ms-transition: all 750ms ease;
   -o-transition: all 750ms ease;
   background-size: auto 970px;
-
 }
 
 .p-studio {
@@ -1206,7 +1220,6 @@ section .four {
   /*   animation: hovertrigger 6s ease 4s infinite forwards;
   -webkit-animation: hovertrigger 6s ease 4s infinite forwards; */
 }
-
 
 /* mouse over grow img a and b */
 .p-studio:hover,
@@ -1295,7 +1308,6 @@ section .four {
 }
 
 .team-single-img:hover .team-mo {
-
   opacity: 1;
   transform: translateY(0%);
   -webkit-transform: translateY(0%);
@@ -1376,7 +1388,7 @@ section .four {
 
 .one .container-banner .wrapper .zerotwo {
   margin: auto;
-  max-width: 50%
+  max-width: 50%;
 }
 
 .one .copy {
@@ -1607,7 +1619,6 @@ section .four {
   position: relative;
 }
 
-
 .video-wrapper {
   position: relative;
   margin: 64px 80px 0 7.5em;
@@ -1678,7 +1689,6 @@ section .four {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .three .ebv1 .vorher {
@@ -1745,7 +1755,6 @@ section .four {
   max-width: 60%;
   margin: 0 0 0 5.5em;
 }
-
 
 .three .container .wrapper.tuete .copy {
   max-width: 40%;
@@ -1995,11 +2004,11 @@ footer a {
   color: var(--white);
   text-decoration: none;
   display: inline-block;
-  margin: 0 .25rem 0 0;
+  margin: 0 0.25rem 0 0;
 }
 
 footer a::after {
-  content: '';
+  content: "";
   display: block;
   width: 0;
   height: 2px;
@@ -2152,7 +2161,6 @@ div.progress.white {
   margin: auto;
 }
 
-
 .slick-dots {
   display: flex;
   justify-content: center;
@@ -2277,11 +2285,11 @@ div.progress.white {
 /* #region Breakpoints */
 /* ####################
  * RESPONSIVE LAYOUTS #
- * #################### 
+ * ####################
  */
 
 /* #region RESPONSIVE */
-/* 
+/*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
@@ -2292,7 +2300,7 @@ div.progress.white {
   }
 }
 
-/* 
+/*
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
@@ -2356,7 +2364,6 @@ div.progress.white {
     max-width: 100%;
   }
 
-
   .three .ebv1,
   .three .ebv2 {
     flex-direction: column;
@@ -2400,20 +2407,19 @@ div.progress.white {
     overflow: hidden;
   }
 
-
   h1.ibm-plex-sans {
     font-size: 3rem;
   }
 
   /* privacy styles */
   html body main {
-    margin: 25px 0;
+    margin: 25px auto;
     padding: 25px 0 25px 0;
     max-width: 80vw !important;
   }
 }
 
-/* 
+/*
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
 */
@@ -2685,10 +2691,9 @@ div.progress.white {
   .spacer_med {
     height: 60px;
   }
-
 }
 
-/* 
+/*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
@@ -2834,13 +2839,12 @@ div.progress.white {
   }
 }
 
-/* 
+/*
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
   body {
     cursor: default;
   }
@@ -3165,18 +3169,15 @@ div.progress.white {
   }
 }
 
-
-/* 
+/*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-
   body {
     cursor: default;
   }
-
 
   h1 {
     font-weight: 700;
@@ -3288,7 +3289,6 @@ div.progress.white {
     height: 250px;
   }
 
-
   h4 {
     font-size: 135px;
     text-align: center;
@@ -3344,7 +3344,6 @@ div.progress.white {
     flex-direction: column;
   }
 
-
   #ebv1-vh,
   #ebv2-vh {
     max-width: 100%;
@@ -3365,7 +3364,6 @@ div.progress.white {
   #pfeil {
     display: none;
   }
-
 
   .three .ebv1 .nachher {
     margin: 120px 0 60px;
