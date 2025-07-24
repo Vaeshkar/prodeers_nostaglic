@@ -1,0 +1,4 @@
+User-agent: * 
+Disallow: /agencies/ 
+Disallow: /dev/ 
+Disallow: /newsletter/
